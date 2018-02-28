@@ -1,0 +1,3 @@
+cd /jboss/java/oracle/1.7/jre/lib/security/
+
+/jboss/java/oracle/1.7/jre/bin/keytool -keystore cacerts -importcert -alias cm_cer_new_0 -file /jboss/fuse/appconfig/cert_cm_new/cm_cer_0.cer
